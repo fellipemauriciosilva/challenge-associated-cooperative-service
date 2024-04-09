@@ -1,6 +1,6 @@
-package br.com.associatedcooperative.infrastructure.controller.implementations;
+package br.com.associatedcooperative.infrastructure.controller.v1.implementations;
 
-import br.com.associatedcooperative.infrastructure.controller.VoteControllerPort;
+import br.com.associatedcooperative.infrastructure.controller.v1.VoteControllerPort;
 import br.com.associatedcooperative.usecase.dto.VoteRequestDto;
 import br.com.associatedcooperative.usecase.service.implementations.CastVoteByCpfUseCaseImpl;
 import lombok.RequiredArgsConstructor;

@@ -1,7 +1,7 @@
-package br.com.associatedcooperative.infrastructure.controller.implementations;
+package br.com.associatedcooperative.infrastructure.controller.v1.implementations;
 
 import br.com.associatedcooperative.domain.ruling.RulingStatus;
-import br.com.associatedcooperative.infrastructure.controller.RulingControllerPort;
+import br.com.associatedcooperative.infrastructure.controller.v1.RulingControllerPort;
 import br.com.associatedcooperative.infrastructure.controller.utils.PathUtils;
 import br.com.associatedcooperative.usecase.dto.RulingRequestDto;
 import br.com.associatedcooperative.usecase.dto.RulingResponseDto;

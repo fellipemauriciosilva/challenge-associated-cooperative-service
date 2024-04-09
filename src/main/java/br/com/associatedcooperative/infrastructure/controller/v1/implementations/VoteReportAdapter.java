@@ -1,6 +1,6 @@
-package br.com.associatedcooperative.infrastructure.controller.implementations;
+package br.com.associatedcooperative.infrastructure.controller.v1.implementations;
 
-import br.com.associatedcooperative.infrastructure.controller.VoteReportPort;
+import br.com.associatedcooperative.infrastructure.controller.v1.VoteReportPort;
 import br.com.associatedcooperative.usecase.service.implementations.GenerateVotesPdfReportByIdUseCaseImpl;
 import lombok.RequiredArgsConstructor;
 import org.springframework.core.io.InputStreamResource;

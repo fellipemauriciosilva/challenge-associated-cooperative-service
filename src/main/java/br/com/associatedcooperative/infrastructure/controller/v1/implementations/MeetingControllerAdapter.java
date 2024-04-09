@@ -1,6 +1,6 @@
-package br.com.associatedcooperative.infrastructure.controller.implementations;
+package br.com.associatedcooperative.infrastructure.controller.v1.implementations;
 
-import br.com.associatedcooperative.infrastructure.controller.MeetingControllerPort;
+import br.com.associatedcooperative.infrastructure.controller.v1.MeetingControllerPort;
 import br.com.associatedcooperative.infrastructure.controller.utils.PathUtils;
 import br.com.associatedcooperative.usecase.dto.MeetingRequestDto;
 import br.com.associatedcooperative.usecase.dto.MeetingResponseDto;

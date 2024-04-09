@@ -1,7 +1,7 @@
-package br.com.associatedcooperative.infrastructure.controller.implementations;
+package br.com.associatedcooperative.infrastructure.controller.v1.implementations;
 
 import br.com.associatedcooperative.domain.member.MemberStatus;
-import br.com.associatedcooperative.infrastructure.controller.MemberControllerPort;
+import br.com.associatedcooperative.infrastructure.controller.v1.MemberControllerPort;
 import br.com.associatedcooperative.infrastructure.controller.utils.PathUtils;
 import br.com.associatedcooperative.usecase.dto.MemberRequestDto;
 import br.com.associatedcooperative.usecase.dto.MemberResponseDto;

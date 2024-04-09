@@ -1,4 +1,4 @@
-package br.com.associatedcooperative.infrastructure.controller;
+package br.com.associatedcooperative.infrastructure.controller.v1;
 
 import br.com.associatedcooperative.infrastructure.controller.utils.PathUtils;
 import io.swagger.v3.oas.annotations.Operation;

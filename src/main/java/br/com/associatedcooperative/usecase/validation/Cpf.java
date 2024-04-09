@@ -10,7 +10,7 @@ import java.lang.annotation.*;
 @Target({ElementType.FIELD, ElementType.PARAMETER})
 @Constraint(validatedBy = {CpfImpl.class})
 public @interface Cpf {
-    String message() default "CPF inválido, digite somente os numeros de um CPF válido";
+    String message() default "Invalid CPF, only enter the numbers of a valid CPF";
     Class<?>[] groups() default {};
     Class<? extends Payload>[] payload() default {};
 }
